@@ -33,4 +33,5 @@ func Info(c *gin.Context) {
 	x := make(map[string]interface{})
 	x["user_info"] = r
 	tool.Success("登录成功", x, c)
+
 }
